@@ -270,7 +270,7 @@ REST API сервис интернет-магазина, который позв
     # Настраиваем параметры
     DEBUG=False
     SECRET_KEY=<случайно_сгенерированный_ключ_длинной_50_символов>
-    ALLOWED_HOSTS=127.0.0.1,yandex-school.marianastrix.com
+    ALLOWED_HOSTS=127.0.0.1,yandex-school.marianastrix.com,84.201.155.85
     DATABASE_URL=psql://store:<ваш_пароль>@127.0.0.1:5432/db_onlinestore
     ENVIRONMENT=production
     ```
