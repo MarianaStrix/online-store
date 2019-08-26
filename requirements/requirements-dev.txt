@@ -1,0 +1,10 @@
+Django==2.2.4
+django-environ==0.4.5
+django-filter==2.2.0
+djangorestframework==3.10.2
+drf-yasg==1.16.1
+numpy==1.17.0
+psycopg2==2.8.3
+pytest==5.1.1
+pytest-django==3.5.1
+pytest-cov==2.7.1
