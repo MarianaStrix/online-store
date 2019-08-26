@@ -124,3 +124,6 @@ class TestImport:
 
     def test_import_create_not_unique_relatives(self, api_client, testing_create_data_34):
         self.make_test(api_client, testing_create_data_34, 400)
+
+    def test_import_create_empty_one_citizen(self, api_client, testing_create_data_35):
+        self.make_test(api_client, testing_create_data_35, 400)

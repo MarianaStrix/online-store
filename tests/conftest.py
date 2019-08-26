@@ -819,6 +819,7 @@ def testing_create_data_28():
         ]
     )
 
+
 @pytest.fixture
 def testing_create_data_29():
     return dict(
@@ -836,6 +837,7 @@ def testing_create_data_29():
             }
         ]
     )
+
 
 @pytest.fixture
 def testing_create_data_30():
@@ -896,6 +898,26 @@ def testing_create_data_34():
                 "gender": "male",
                 "relatives": [1, 1]
             }
+        ]
+    )
+
+
+@pytest.fixture
+def testing_create_data_35():
+    return dict(
+        citizens=[
+            {
+                "citizen_id": 1,
+                "town": "Москва",
+                "street": "Льва Толстого",
+                "building": "16к7стр5",
+                "apartment": 7,
+                "name": "Иванов Иван Иванович",
+                "birth_date": "26.12.1986",
+                "gender": "male",
+                "relatives": [1]
+            },
+            {}
         ]
     )
 

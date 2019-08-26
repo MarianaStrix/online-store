@@ -45,6 +45,10 @@ class ImportCreateView(generics.CreateAPIView):
         """
         citizens = self.request.data.get('citizens')
         if citizens is not None:
+            if {} in citizens:
+                raise ValidationError(
+                    detail={'detail': 'Empty one of citizen'}
+                )
             if citizens in ([], [{}]):
                 raise ValidationError(
                     detail={'detail': 'Citizens are empty'}
